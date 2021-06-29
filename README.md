@@ -16,3 +16,6 @@ Thanks,
 <h3>Extras</h3>
 <p>To see some of the commands, when you run the shell you can type, "Help" to see a brief summary of the basic commands you'll need to use to be able to run your programs. Btw, I'll make it so you can ONLY run .bearL files as soon as I can. But right now its just easiest to just not check if the file has the extension, and just going with any plain text file. The .bearL extension is NOT required, but it's recommended because I haven't tested the shell with using file extensions like .py, .c, .cc, etc. Nevermind, I tested but im not gonna delete the previous text cause its too hard. It works with every file extension, it just has to match the Bear-Lang syntax.</p>
 <h4>Disclaimer: This is not a recommended programming language, it's simply a fun project to work on in my spare time. Though, in the future this could become a very useful language once I expand it.</h4>
+
+<h2>Upcoming Changes</h2>
+<p>I'll make the shell an exe so that you can run it without having to have python installed</p>

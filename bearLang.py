@@ -1,3 +1,7 @@
+# hello there, this is from bizzypythonbear
+# also named michael
+# just saying hi
+
 #######################################
 # IMPORTS
 #######################################

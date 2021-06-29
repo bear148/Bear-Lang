@@ -1,7 +1,17 @@
-PRINT("Hello, World!")
 
-# Functions
-FUN oopify(prefix) -> prefix + "oop"
+# Comments
+
+
+
+#            Arguements
+#                 |
+#                 |
+# Functions       V
+FUN printStuff(message)
+    FOR i = 0 TO 10 THEN
+        PRINT(message)
+    END
+END
 
 FUN join(elements, seperator)
     VAR result = ""
@@ -17,5 +27,5 @@ END
 
 # loops
 FOR i = 0 TO 5 THEN
-    PRINT(join([oopify("L"), oopify("sp")], ", "))
+    printStuff("Hello, World!") # <--- Calling function
 END

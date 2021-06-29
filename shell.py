@@ -1,6 +1,9 @@
 import bearLang as bear
 
 while True:
+    print("|------------------------|")
+    print("| Bear-Lang Shell V0.0.1 |")
+    print("|------------------------|")
     text = input('Bear Lang > ')
     if text.strip() == "": continue
     result, error = bear.run('<stdin>', text)

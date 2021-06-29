@@ -1,0 +1,21 @@
+PRINT("Hello, World!")
+
+# Functions
+FUN oopify(prefix) -> prefix + "oop"
+
+FUN join(elements, seperator)
+    VAR result = ""
+    VAR len = LEN(elements)
+
+    FOR i = 0 TO len THEN
+        VAR result = result + elements/i
+        IF i != len - 1 THEN VAR result = result + seperator
+    END
+
+    RETURN result
+END
+
+# loops
+FOR i = 0 TO 5 THEN
+    PRINT(join([oopify("L"), oopify("sp")], ", "))
+END

@@ -11,6 +11,10 @@ while True:
         print("Closing...")
         sleep(1)
         break
+    elif text == "exit":
+        print("Closing...")
+        sleep(1)
+        break
 
     if text == "Help":
         print("Commands:\n")
@@ -20,6 +24,14 @@ while True:
         print("Be sure to replace 'nameOfProgram' with the name of your own file and double quotes.\n")
         print("You can also add, subtract, multiply, and divide, and some other stuff.\n")
         continue
+    elif text == "help":
+        print("Commands:\n")
+        print("Help: Shows these commands\n")
+        print("Exit: Closes shell\n")
+        print("RUN('nameOfProgram'): Runs your program file.\n")
+        print("Be sure to replace 'nameOfProgram' with the name of your own file and double quotes.\n")
+        print("You can also add, subtract, multiply, and divide, and some other stuff.\n")
+        continue    
 
     if text.strip() == "": continue
     result, error = bear.run('<stdin>', text)

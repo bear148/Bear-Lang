@@ -1,9 +1,6 @@
 <h1>Bear Lang!</h1>
-<<<<<<< HEAD
 <img src="https://img.shields.io/badge/Version-v0.0.2.1-brightgreen" alt="Ver Num">
-=======
 <h3>Version: 0.0.2.1</h3>
->>>>>>> 59e66cbf660603fb23ea1d58100d34a2f95ca8ba
 <img src="logo.png" alt="Bear Lang" width='200' height='200'>
 <p>Very simple scripting language. To create scripts, you can either make a .txt file, or .bearL file.
 There is an example script in the testingLang.txt file.

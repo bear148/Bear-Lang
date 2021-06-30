@@ -1,5 +1,5 @@
 <h1>Bear Lang!</h1>
-<h2>Version: 0.0.2.1</h2>
+<h3>Version: 0.0.2.1</h3>
 <img src="logo.png" alt="Bear Lang" width='200' height='200'>
 <p>Very simple scripting language. To create scripts, you can either make a .txt file, or .bearL file.
 There is an example script in the testingLang.txt file.

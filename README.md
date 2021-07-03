@@ -29,5 +29,8 @@ I'm still working on this. This is not complete and still needs work.
      <li>Installer that automatically adds /dist/shell directory to path.</li>
 </ul>
 
+<h4>Announcement</h4>
+<p>I wont be working for a little bit as my family is comming over to my house. Don't expect any updates this week or next week.</p>
+
 <h4>Other Projects</h4>
 <p>I have another projects that you could checkout and give feedback on aswell. My 2nd biggest, active project right now is the my <a href="https://github.com/BizzyPythonBear/Bear-Kernel">BearOS Kernel</a>.</p>
